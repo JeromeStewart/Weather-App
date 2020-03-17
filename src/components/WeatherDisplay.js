@@ -9,11 +9,15 @@ export default props => {
         alt="Weather card"
       />
       <div class="card-body">
-        <h5 class="card-title">{props.weather.name}</h5>
-        <h6 class="card-text">{props.weather.weather[0].main}</h6>
-        <h6 class="card-text">{props.weather.weather[0].description}</h6>
-        <p class="card-text">Temperature: {props.weather.main.temp} °C</p>
-        <p class="card-text">Feels like: {props.weather.main.feels_like} °C</p>
+        <h5 class="card-title mt-4">{props.weather.name}</h5>
+        <h6 class="card-text mt-4">{props.weather.weather[0].main}</h6>
+        <h6 class="card-text mt-4">{props.weather.weather[0].description}</h6>
+        <h6 class="card-text mt-4">
+          Temperature: {props.weather.main.temp} °C
+        </h6>
+        <h6 class="card-text mt-4">
+          Feels like: {props.weather.main.feels_like} °C
+        </h6>
       </div>
     </div>
   );
