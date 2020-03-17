@@ -1,0 +1,9 @@
+.jumbotron {
+  color: white;
+  background-color: #0d0504;
+}
+
+#jumbotron-img {
+  width: 100%;
+  height: auto;
+}
