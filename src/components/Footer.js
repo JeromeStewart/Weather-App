@@ -47,6 +47,7 @@ export default () => {
                 <li>
                   <a href="https://reactjs.org/">React</a>
                 </li>
+                <li>Web app create by Jerome Stewart</li>
               </ul>
             </div>
           </div>
